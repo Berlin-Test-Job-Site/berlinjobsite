@@ -24,7 +24,7 @@ export const PageWelcome = () => {
 			<p className="mb-4">
 				This is Berlin Jobs Site, you can{" "}
 				<span className="font-bold">contact</span> us with following
-				number: <span className="font-bold">+49 00123 512398</span>{" "}
+				number: <span className="font-semibold">+49 00123 512398</span>{" "}
 			</p>
 
 			<ul>
