@@ -16,6 +16,16 @@ export const PageWelcome = () => {
 	});
 
 	return (
-		<h2>There are {jobs.length} jobs:</h2>
-	)
-}
+		<>
+			<h2 className="mb-4 text-xl">There are {jobs.length} jobs:</h2>
+
+			<ul>
+				<>
+					{jobs.map((job) => {
+						return <li key={job.id}>{job.title}</li>;
+					})}
+				</>
+			</ul>
+		</>
+	);
+};
