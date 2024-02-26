@@ -19,6 +19,10 @@ export const PageWelcome = () => {
 		<>
 			<p className="text-blue-900 mb-4 text-xl">Welcome to this site, we are glad you are here.</p>
 			<h2 className="mb-4 text-xl">There are {jobs.length} jobs:</h2>
+			<p className="mb-4">
+				This is Berlin Jobs Site, you can contact us with following
+				number: <span className="font-bold">+49 00123 512398</span>{" "}
+			</p>
 
 			<ul>
 				<>
