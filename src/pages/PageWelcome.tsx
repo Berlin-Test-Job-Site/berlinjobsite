@@ -17,6 +17,7 @@ export const PageWelcome = () => {
 
 	return (
 		<>
+			<p className="text-blue-900 mb-4 text-xl">Welcome to this site, we are glad you are here.</p>
 			<h2 className="mb-4 text-xl">There are {jobs.length} jobs:</h2>
 
 			<ul>
